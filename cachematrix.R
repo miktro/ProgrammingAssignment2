@@ -19,7 +19,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve checks supplied object to see if it has an inverse already.
+## If there is an inverse then it is returned.
+## Otherwise the inverse is 'solve'd, stored for furture use and returned.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
